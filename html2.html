@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Plagiarise detection</title>
+	<meta name="description" content="Plagiarise detection">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+</head>
+	<style>
+	body{
+		padding-top:40px;
+	}
+	</style>
+<body data-spy="scroll" data-target="#my-navbar"><!--Navbar-->
+	<nav class ="navbar navbar-inverse navbar-fixed-top" id="my-navbar"> 
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				<a href="" class="navbar-brand">Plagiarise Catcher</a>
+			</div><!--Navbar header-->
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+			
+				<ul class="nav navbar-nav">
+					<li><a href="#faq">Time to code</a>
+				</ul>
+			</div>
+		</div><!--Navbar contaiiner-->
+	</nav><!--Navbar -->
+
+	<!--jumbotron-->
+	
+
+	
+
+
+	<!-- Faq -->
+
+    <div class="container">
+      <section>
+        <div class="page-header" id="faq">
+          <h2>Time to Code.<small> </small></h2>
+        </div><!-- End Page Header -->
+        <!--<form action="" class="form-inline">
+          <div class="form-group">
+            <label for="subscription">Username</label>
+            <input type="text" class="form-control" id="subscription" placeholder="Your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Password</label>
+            <input type="text" class="form-control" id="email" placeholder="Enter your Email">
+          </div>
+          </form>
+          -->
+          
+        
+        <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="panel-title">
+                <a href="#collapse-1" data-toggle="collapse" data-parent="#accordion">
+                  <strong>Minesweeper</strong>
+                </a>
+              </div><!-- End panel title -->
+              <div id="collapse-1" class="panel-collapse collapse in">
+                <div class="panel-body">
+                  Have you ever played Minesweeper? This cute little game comes with a certain operating system whose name we can’t remember. The goal of the game is to ﬁnd where all the mines are located within a M ×N ﬁeld. The game shows a number in a square which tells you how many mines there are adjacent to that square. Each square has at most eight adjacent squares. The 4×4 ﬁeld on the left contains two mines, each represented by a “*” character. If we represent the same ﬁeld by the hint numbers described above, we end up with the ﬁeld on the right:</br><strong>*...</strong> </br> <strong>....</strong></br> <strong>.*..</strong> </br><strong>....</strong> </br></br><strong>*100</strong></br><strong>2210</strong></br> <strong>1*10</strong></br> <strong>1110</strong> </br>
+<strong>Input</strong></br> The input will consist of an arbitrary number of ﬁelds. The ﬁrst line of each ﬁeld contains two integers n and m (0 < n,m≤ 100) which stand for the number of lines and columns of the ﬁeld, respectively. Each of the next n lines contains exactly m characters, representing the ﬁeld. Safe squares are denoted by “.” and mine squares by “*,” both without the quotes. The ﬁrst ﬁeld line where n = m = 0 represents the end of input and should not be processed.</br>
+Output For each ﬁeld, print the message Field #x: on a line alone, where x stands for the number of the ﬁeld starting from 1. The next n lines should contain the ﬁeld with the “.” characters replaced by the number of mines adjacent to that square. There must be an empty line between ﬁeld outputs.</br><strong>Sample Input</strong>  </br>4 4 </br><strong>*...</strong> </br> <strong>....</strong></br> <strong>.*..</strong> </br><strong>....</strong> </br><strong>Sample Output</strong>  </br>Field #1: </br><strong>*100</strong></br><strong>2210</strong></br> <strong>1*10</strong></br> <strong>1110</strong> </br></blockquote>
+                </div>
+                <form action="/dashboard/dineshdeba/third1.php" class="form-horizontal" method="POST">
+                <div class="form-group">
+                  <label for="comment">Enter Code:</label> 
+                  <textarea class="form-control" rows="10" id="test" name="test" value="test"></textarea>
+                  <label for="username">Username</label>
+            		<input type="text" class="form-control" id="username" name="username" placeholder="Your name"  >
+            		<label for="">Password</label>
+            		<input type="password" class="form-control" id="password" name="password"  placeholder="Your password">
+                  <button type="submit" class="btn btn-default">Submit</button>
+                </div>
+                </form>
+                
+</form>
+
+              </div><!-- End Panel collapse -->
+
+            </div>
+
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="panel-title">
+                <a href="#collapse-2" data-toggle="collapse" data-parent="#accordion">
+                  <strong>Australian Voting</strong>
+                </a>
+              </div><!-- End panel title -->
+              <div id="collapse-2" class="panel-collapse collapse">
+                <div class="panel-body">
+                  Australian ballots require that voters rank all the candidates in order of choice. Initially only the ﬁrst choices are counted, and if one candidate receives more than 50% of the vote then that candidate is elected. However, if no candidate receives more than 50%, all candidates tied for the lowest number of votes are eliminated. Ballots ranking these candidates ﬁrst are recounted in favor of their highest-ranked non-eliminated candidate. This process of eliminating the weakest candidates and counting their ballots in favor of the preferred non-eliminated candidate continues until one candidate receives more than 50% of the vote, or until all remaining candidates are tied.</br>
+                  <strong>Input</strong> </br>The input begins with a single positive integer on a line by itself indicating the number of cases following, each as described below. This line is followed by a blank line. There is also a blank line between two consecutive inputs. The ﬁrst line of each case is an integer n ≤ 20 indicating the number of candidates. The next n lines consist of the names of the candidates in order, each up to 80 characters in length and containing any printable characters. Up to 1,000 lines follow, each containing the contents of a ballot. Each ballot contains the numbers from 1 to n in some order. The ﬁrst number indicates the candidate of ﬁrst choice; the second number indicates candidate of second choice, and so on.</br>
+                  <strong>Output</strong></br>The output of each test case consists of either a single line containing the name of the winner or several lines containing the names of all candidates who are tied. The output of each two consecutive cases are separated by a blank line.</br>
+                  <strong>Sample Input </strong></br>1</br></br> 
+3</br> John Doe</br> Jane Smith</br> Jane Austen</br> 1 2 3 </br>2 1 3</br> 2 3 1 </br>1 2 3 </br>3 1 2
+</br> </br><strong>Sample Output</strong></br> John Doe </blockquote>
+                </div>
+                <form action="/dashboard/dineshdeba/third2.php" class="form-horizontal" method="POST">
+                <div class="form-group">
+                  <label for="comment">Enter Code:</label> 
+                  <textarea class="form-control" rows="10" id="test" name="test" value="test"></textarea>
+                  <label for="username">Username</label>
+                <input type="text" class="form-control" id="username" name="username" placeholder="Your name"  >
+                <label for="">Password</label>
+                <input type="password" class="form-control" id="password" name="password"  placeholder="Your password">
+                  <button type="submit" class="btn btn-default">Submit</button>
+                </div>
+                </form>
+              </div><!-- End Panel collapse -->
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="panel-title">
+                <a href="#collapse-3" data-toggle="collapse" data-parent="#accordion">
+                  <strong>WERTYU</strong>
+                </a>
+              </div><!-- End panel title -->
+              <div id="collapse-3" class="panel-collapse collapse">
+                <div class="panel-body">
+                  A common typing error is to place your hands on the keyboard one row to the right of the correct position. Then “Q” is typed as “W” and “J” is typed as “K” and so on. Your task is to decode a message typed in this manner.</br>
+<strong>Input </strong></br>Input consists of several lines of text. Each line may contain digits, spaces, uppercase letters (except “Q”, “A”, “Z”), or punctuation shown above [except back-quote (‘)]. Keys labeled with words [Tab, BackSp, Control, etc.] are not represented in the input.</br>
+<strong>Output</strong></br> You are to replace each letter or punctuation symbol by the one immediately to its left on the QWERTY keyboard shown above. Spaces in the input should be echoed in the output.</br>
+<strong>Sample Input</strong></br> O S, GOMR YPFSU/</br>
+<strong>Sample Output</strong></br> I AM FINE TODAY.</br></blockquote>
+                </div>
+                <form action="/dashboard/dineshdeba/third3.php" class="form-horizontal" method="POST">
+                <div class="form-group">
+                  <label for="comment">Enter Code:</label> 
+                  <textarea class="form-control" rows="10" id="test" name="test" value="test"></textarea>
+                  <label for="username">Username</label>
+                <input type="text" class="form-control" id="username" name="username" placeholder="Your name"  >
+                <label for="">Password</label>
+                <input type="password" class="form-control" id="password" name="password"  placeholder="Your password">
+                  <button type="submit" class="btn btn-default">Submit</button>
+                </div>
+                </form>
+              </div><!-- End Panel collapse -->
+            </div>
+          </div>
+        </div><!-- End panel group -->
+
+      </section>
+    </div><!-- End container -->
+
+
+    
+  
+
+
+  <!-- Footer -->
+
+    <footer>
+      <hr>
+        <div class="container text-center">
+        <h3>Subscribe for more free stuff</h3>
+        <p>Enter your name and email</p>
+
+        <form action="" class="form-inline">
+          <div class="form-group">
+            <label for="subscription">Subscribe</label>
+            <input type="text" class="form-control" id="subscription" placeholder="Your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="text" class="form-control" id="email" placeholder="Enter your Email">
+          </div>
+          <button type="submit" class="btn btn-default">Subscribe</button>
+          
+        </form>
+
+        <hr>
+        <ul class="list-inline">
+          <li><a href="http://www.twitter.com/wiredwiki">Twitter</a></li>
+          <li><a href="http://www.facebook.com/askorama">Facebook</a></li>
+          <li><a href="http://www.youtube.com/wiredwiki">YouTube</a></li>
+        </ul>
+
+        <p>&copy; Copyright @ 2014</p>
+
+      </div><!-- end Container-->
+      
+
+    </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>  
+</body>
+</html>

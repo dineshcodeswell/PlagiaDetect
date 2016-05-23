@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Plagiarise detection</title>
+	<meta name="description" content="Plagiarise detection">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+</head>
+	<style>
+	body{
+		padding-top:40px;
+	}
+	</style>
+<body data-spy="scroll" data-target="#my-navbar"><!--Navbar-->
+	<nav class ="navbar navbar-inverse navbar-fixed-top" id="my-navbar"> 
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				<a href="" class="navbar-brand">Plagiarise Catcher</a>
+			</div><!--Navbar header-->
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+			
+				<ul class="nav navbar-nav">
+					<li><a href="#feedback">Feedback</a>
+					<li><a href="#gallery">Gallery</a>
+					<li><a href="#features">Features</a>
+					<li><a href="#faq">Faq</a>
+					<li><a href="#contact">ContactUs</a>
+				</ul>
+			</div>
+		</div><!--Navbar contaiiner-->
+	</nav><!--Navbar -->
+
+	<!--jumbotron-->
+	<div class="jumbotron">
+		<div class="container text-center" >
+			<h1>Cloud Plagiarism Analyser</h1>
+			<p>An initiative by CetB students to stop plagarism </p>
+
+			<div class="btn-group">
+				 <a href="" class="btn btn-lg btn-info">Visit code</a>
+				 <a href="" class="btn btn-lg btn-default">Hire Me</a>
+				 <a href="" class="btn btn-lg btn-info">Spread the word</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<section>
+			<div class="page-header" id="feedback">
+				<h2>This is what people say</h2>
+			</div>
+			<div class="row">
+				<div class="col-lg-4">
+					<blockquote>
+						<p>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 
+						<footer>John doe</footer>
+					</blockquote>
+				</div> 
+				<div class="col-lg-4">
+					<blockquote>
+						<p>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+						</p>
+						<footer>John doe</footer>
+					</blockquote>
+				</div> 
+				<div class="col-lg-4">
+					<blockquote>
+						<p>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+						</p>
+						<footer>John doe</footer>
+					</blockquote>
+				</div> 
+			</div>
+		</section>
+	</div><!--end of feedback-->
+<<!--calltoaction--
+	<section>
+		<div class="well">
+			<div class="container text-center">
+				<h3>Subscribe for more free stuff</h3>
+				<p>Enter your name and email</p>
+
+				<form action=" " class="form-inline">
+					<div class ="form-group">
+						<label for="subscription">Subscribe</label>
+						<input type="text" class="form-control" id="subscription" placeholder="Your  name">
+					</div>
+					<div class ="form-group">
+						<label for="subscription">Email</label>
+						<input type="text" class="form-control" id="email" placeholder="Enter your email">
+					</div>
+					<button type="submit" class="btn btn-default">Subscribe</button>
+				</form>
+				<hr>
+			</div>
+		</div>
+	</section>  call to action-->
+<!--Galler-->
+	<div class="container">
+		<section >
+			<div class="page-header" id="gallery">
+				<h2>The Process of detection</h2>
+			</div>
+			<div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+					<li data-target="#screenshot-carousel" data-slide-to="1" ></li>
+					<li data-target="#screenshot-carousel" data-slide-to="2" ></li>
+					<li data-target="#screenshot-carousel" data-slide-to="3" ></li>
+				</ol>
+				<div class="carousel-inner">
+  					<div class="item active">
+  						<img src="highway.jpg" alt="Text of the image" width="1500" height="700">
+  						<div class="carousel-caption">
+  							<h3>Highway heading</h3>
+  							<p>This is the caption</p>
+  						</div>
+  					</div>
+  					<div class="item">
+  						<img src="river.jpg" alt="Text of the image" width="1500" height="700">
+  						<div class="carousel-caption">
+  							<h3>River heading</h3>
+  							<p>This is the caption</p>
+  						</div>
+  					</div>
+  					<div class="item">
+  						<img src="street.gif" alt="Text of the image" width="1500" height="700">
+  						<div class="carousel-caption">
+  							<h3>Street heading</h3>
+  							<p>This is the caption</p>
+  						</div>
+  					</div>
+  					<div class="item">
+  						<img src="painting.jpg" alt="Text of the image" width="1500" height="700">
+  						<div class="carousel-caption">
+  							<h3>Painting heading</h3>
+  							<p>This is the caption</p>
+  						</div>
+  					</div>
+  					<a href="#screenshot-carousel" class="left carousel-control" data-slide="prev">
+  					<span class="glyphicon glyphicon-chevron-left"></span>
+  				</a>
+  				<a href="#screenshot-carousel" class="right carousel-control" data-slide="next">
+  					<span class="glyphicon glyphicon-chevron-right"></span>
+  				</a>
+			</div><!--end carousel-->
+		</section>
+	</div>
+
+
+	<!-- features -->
+	<div class="container">
+		<section>
+			<div class="page-header" id="features">
+  				<h2>Features.<small> Some of the coolest Features of this website</small></h2>
+  			</div><!-- End Page Header -->
+
+  			<div class="row">
+  				<div class="col-sm-8">
+  					<h3>It all happens in the cloud</h3>
+  					<p>Analyser acts basically according to the responses provided and are stored in the database.</p>
+  				</div>
+  				<div class="col-sm-4">
+  					<img src="imac1.png" class="img-responsive" alt="image">
+  				</div>
+  			</div><!-- End row -->
+  			<div class="row">
+  				<div class="col-sm-8">
+  					<h3>Easily compare the percentage similarity</h3>
+  					<p>Uses Edit Distance, dynamic programmin algorithm to find out the percentage similarity</p>
+  				</div>
+  				<div class="col-sm-4">
+  					<img src="painting.jpg" class="img-responsive" alt="image">
+  				</div>
+  			</div>
+  			<div class="row">
+  				<div class="col-sm-8">
+  					<h3>Open Source</h3>
+  					<p>Code is available at Github.com</p>
+  				</div>
+  				<div class="col-sm-4">
+  					<img src="user.jpg" class="img-responsive" alt="image">
+  				</div>
+  			</div>
+
+  			<hr>
+<!--
+  			<div class="row">
+  				<div class="col-sm-4">
+  					<div class="panel panel-default text-center">
+  						<div class="panel-body">
+  							<span class="glyphicon glyphicon-ok"></span>
+  							<h4>This is the Heading</h4>
+  							<p>Nam velit est, tempor vel posuere et, auctor a lectus. Aenean gravida, est accumsan dictum rhoncus, lectus mi suscipit lacus, suscipit accumsan augue tellus vitae dolor. Morbi in euismod dui</p>
+  						</div>
+  					</div>
+  				</div>
+
+  				<div class="col-sm-4">
+  					<div class="panel panel-default text-center">
+  						<div class="panel-body">
+  							<span class="glyphicon glyphicon-star"></span>
+  							<h4>This is the Heading</h4>
+  							<p>Nam velit est, tempor vel posuere et, auctor a lectus. Aenean gravida, est accumsan dictum rhoncus, lectus mi suscipit lacus, suscipit accumsan augue tellus vitae dolor. Morbi in euismod dui</p>
+  						</div>
+  					</div>
+  				</div>
+
+  				<div class="col-sm-4">
+  					<div class="panel panel-default text-center">
+  						<div class="panel-body">
+  							<span class="glyphicon glyphicon-play-circle"></span>
+  							<h4>This is the Heading</h4>
+  							<p>Nam velit est, tempor vel posuere et, auctor a lectus. Aenean gravida, est accumsan dictum rhoncus, lectus mi suscipit lacus, suscipit accumsan augue tellus vitae dolor. Morbi in euismod dui</p>
+  						</div>
+  					</div>
+  				</div>
+  			</div> end row -->
+
+		</section>
+	</div><!-- End Container -->
+
+
+	<!-- Solving Questions -->
+
+    <div class="container">
+      <section>
+        <div class="page-header" id="faq">
+          <h2>Questions.<small> Time to test your own coding skills(Better dont Cheat)</small></h2>
+        </div><!-- End Page Header -->
+
+        <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="panel-title">
+                <a href="#collapse-1" data-toggle="collapse" data-parent="#accordion">
+                  <strong>Question 1: Minesweeper</strong>
+                </a>
+              </div><!-- End panel title -->
+              <div id="collapse-1" class="panel-collapse collapse in">
+                <div class="panel-body"><blockquote>
+                  Have you ever played Minesweeper? This cute little game comes with a certain operating system whose name we can’t remember. The goal of the game is to ﬁnd where all the mines are located within a M ×N ﬁeld. The game shows a number in a square which tells you how many mines there are adjacent to that square. Each square has at most eight adjacent squares. The 4×4 ﬁeld on the left contains two mines, each represented by a “*” character. If we represent the same ﬁeld by the hint numbers described above, we end up with the ﬁeld on the right:</br><strong>*...</strong> </br> <strong>....</strong></br> <strong>.*..</strong> </br><strong>....</strong> </br></br><strong>*100</strong></br><strong>2210</strong></br> <strong>1*10</strong></br> <strong>1110</strong> </br>
+<strong>Input</strong></br> The input will consist of an arbitrary number of ﬁelds. The ﬁrst line of each ﬁeld contains two integers n and m (0 < n,m≤ 100) which stand for the number of lines and columns of the ﬁeld, respectively. Each of the next n lines contains exactly m characters, representing the ﬁeld. Safe squares are denoted by “.” and mine squares by “*,” both without the quotes. The ﬁrst ﬁeld line where n = m = 0 represents the end of input and should not be processed.</br>
+Output For each ﬁeld, print the message Field #x: on a line alone, where x stands for the number of the ﬁeld starting from 1. The next n lines should contain the ﬁeld with the “.” characters replaced by the number of mines adjacent to that square. There must be an empty line between ﬁeld outputs.</br><strong>Sample Input</strong>  </br>4 4 </br><strong>*...</strong> </br> <strong>....</strong></br> <strong>.*..</strong> </br><strong>....</strong> </br><strong>Sample Output</strong>  </br>Field #1: </br><strong>*100</strong></br><strong>2210</strong></br> <strong>1*10</strong></br> <strong>1110</strong> </br></blockquote>
+                  <a href="/dashboard/dineshdeba/html2.html" class="btn btn-warning navbar-btn navbar-right">Solve Now</a>
+                </div>
+
+              </div><!-- End Panel collapse -->
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="panel-title">
+                <a href="#collapse-2" data-toggle="collapse" data-parent="#accordion">
+                  <strong>Question 2: Australian Voting</strong>
+                </a>
+              </div><!-- End panel title -->
+              <div id="collapse-2" class="panel-collapse collapse">
+                <div class="panel-body"><blockquote>
+                  Australian ballots require that voters rank all the candidates in order of choice. Initially only the ﬁrst choices are counted, and if one candidate receives more than 50% of the vote then that candidate is elected. However, if no candidate receives more than 50%, all candidates tied for the lowest number of votes are eliminated. Ballots ranking these candidates ﬁrst are recounted in favor of their highest-ranked non-eliminated candidate. This process of eliminating the weakest candidates and counting their ballots in favor of the preferred non-eliminated candidate continues until one candidate receives more than 50% of the vote, or until all remaining candidates are tied.</br>
+                  <strong>Input</strong> </br>The input begins with a single positive integer on a line by itself indicating the number of cases following, each as described below. This line is followed by a blank line. There is also a blank line between two consecutive inputs. The ﬁrst line of each case is an integer n ≤ 20 indicating the number of candidates. The next n lines consist of the names of the candidates in order, each up to 80 characters in length and containing any printable characters. Up to 1,000 lines follow, each containing the contents of a ballot. Each ballot contains the numbers from 1 to n in some order. The ﬁrst number indicates the candidate of ﬁrst choice; the second number indicates candidate of second choice, and so on.</br>
+                  <strong>Output</strong></br>The output of each test case consists of either a single line containing the name of the winner or several lines containing the names of all candidates who are tied. The output of each two consecutive cases are separated by a blank line.</br>
+                  <strong>Sample Input </strong></br>1</br></br> 
+3</br> John Doe</br> Jane Smith</br> Jane Austen</br> 1 2 3 </br>2 1 3</br> 2 3 1 </br>1 2 3 </br>3 1 2
+</br> </br><strong>Sample Output</strong></br> John Doe </blockquote>
+
+                  <a href="/dashboard/dineshdeba/html2.html" class="btn btn-warning navbar-btn navbar-right">Solve Now</a>
+                </div>
+              </div><!-- End Panel collapse -->
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="panel-title">
+                <a href="#collapse-3" data-toggle="collapse" data-parent="#accordion">
+                  <strong>Question 3: WERTYU</strong>
+                </a>
+              </div><!-- End panel title -->
+              <div id="collapse-3" class="panel-collapse collapse">
+                <div class="panel-body"> <blockquote>
+                  A common typing error is to place your hands on the keyboard one row to the right of the correct position. Then “Q” is typed as “W” and “J” is typed as “K” and so on. Your task is to decode a message typed in this manner.</br>
+<strong>Input </strong></br>Input consists of several lines of text. Each line may contain digits, spaces, uppercase letters (except “Q”, “A”, “Z”), or punctuation shown above [except back-quote (‘)]. Keys labeled with words [Tab, BackSp, Control, etc.] are not represented in the input.</br>
+<strong>Output</strong></br> You are to replace each letter or punctuation symbol by the one immediately to its left on the QWERTY keyboard shown above. Spaces in the input should be echoed in the output.</br>
+<strong>Sample Input</strong></br> O S, GOMR YPFSU/</br>
+<strong>Sample Output</strong></br> I AM FINE TODAY.</br></blockquote>
+
+                  <a href="/dashboard/dineshdeba/html2.html" class="btn btn-warning navbar-btn navbar-right">Solve Now</a>
+                </div>
+              </div><!-- End Panel collapse -->
+            </div>
+          </div>
+        </div><!-- End panel group -->
+
+      </section>
+    </div><!-- End container -->
+
+
+    <!-- Contact -->
+
+  <div class="container">
+    <section>
+      <div class="page-header" id="contact">
+          <h2>Contact Us.<small> Contact us for more.</small></h2>
+        </div><!-- End Page Header -->
+
+        <div class="row">
+          <div class="col-lg-4">
+            <p>Send us a message, or contact us from the address below</p>
+
+
+            <address>
+              <strong>College of Engineering and Technology</strong></br>
+              Computer Science and Engineering Department </br>
+              Kalinga Nagar, Ghatikia</br>
+              Bhubaneshwar</br>
+              P: +91 8763396062
+            </address>
+          </div>
+          
+          <div class="col-lg-8">
+            <form action="" class="form-horizontal">
+              <div class="form-group">
+                <label for="user-name" class="col-lg-2 control-label">Name</label>
+                <div class="col-lg-10">
+                  <input type="text" class="form-control" id="user-name" placeholder="Enter you name">
+                </div>
+              </div><!-- End form group -->
+
+              <div class="form-group">
+                <label for="user-email" class="col-lg-2 control-label">Email</label>
+                <div class="col-lg-10">
+                  <input type="text" class="form-control" id="user-email" placeholder="Enter you Email Address">
+                </div>
+              </div><!-- End form group -->
+
+              <div class="form-group">
+                <label for="user-url" class="col-lg-2 control-label">Your Website</label>
+                <div class="col-lg-10">
+                  <input type="text" class="form-control" id="user-email" placeholder="If you have Any.">
+                </div>
+              </div><!-- End form group -->
+
+              <div class="form-group">
+                <label for="user-message" class="col-lg-2 control-label">Any Message</label>
+                <div class="col-lg-10">
+                  <textarea name="user-message" id="user-message" class="form-control" 
+                  cols="20" rows="10" placeholder="Enter your Message"></textarea>
+                </div>
+              </div><!-- End form group -->
+
+              <div class="form-group">
+                <div class="col-lg-10 col-lg-offset-2">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </div>
+
+             
+
+            </form>
+          </div>
+        </div><!-- End the row -->
+
+    </section>
+  </div>
+
+
+  <!-- Footer -->
+
+    <footer>
+      <hr>
+        <div class="container text-center">
+        <h3>Subscribe for more free stuff</h3>
+        <p>Enter your name and email</p>
+
+        <form action="" class="form-inline">
+          <div class="form-group">
+            <label for="subscription">Subscribe</label>
+            <input type="text" class="form-control" id="subscription" placeholder="Your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="text" class="form-control" id="email" placeholder="Enter your Email">
+          </div>
+          <button type="submit" class="btn btn-default">Subscribe</button>
+          
+        </form>
+
+        <hr>
+        <ul class="list-inline">
+          <li><a href="http://www.twitter.com/wiredwiki">Twitter</a></li>
+          <li><a href="http://www.facebook.com/askorama">Facebook</a></li>
+          <li><a href="http://www.youtube.com/wiredwiki">YouTube</a></li>
+        </ul>
+
+        <p>&copy; Copyright @ 2016</p>
+
+      </div><!-- end Container-->
+      
+
+    </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>  
+</body>
+</html>
